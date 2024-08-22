@@ -12,7 +12,8 @@ class AppContainer extends HTMLElement {
 
     render() {
         this.shadowRoot.innerHTML = `
-        
+        <link rel="stylesheet" href="./src/indexAbuelo.css">
+        <section class="container">
         <product-card
         img="https://assets.nintendo.eu/image/private/f_auto,c_limit,w_1920,q_auto:low/xhpzysipjjhubnagwa40" 
         alt="2 months extra with any Nintendo Switch Online 12-month membership"
@@ -35,7 +36,9 @@ class AppContainer extends HTMLElement {
         title="The Legend of Zelda: Echoes of Wisdom" 
         description="Customise your Nintendo Switch with new and colourful Joy-Con." 
         button="Discover">
-        </product-card>`;
+        </product-card>
+        </section>`;
+        
     }
 };
 customElements.define('app-container', AppContainer);

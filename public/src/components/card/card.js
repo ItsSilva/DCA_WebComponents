@@ -21,12 +21,19 @@ class Card extends HTMLElement {
     render() {
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/card/card.css">
-        <div class = "product-card">
+        <section>
+
+        <div class="product-card__img">
         <img src="${this.img}" alt="${this.alt}">
+        </div>
+
+        <div class="product-card__content">
         <h1>${this.title}</h1>
         <p>${this.description}</p>
         <button>${this.button}</button
         </div>
+        
+        </section>
         `;
     }
 }

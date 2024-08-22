@@ -12,11 +12,29 @@ class AppContainer extends HTMLElement {
 
     render() {
         this.shadowRoot.innerHTML = `
-        <product-card img="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Soft-CP-OneDriveCampaignRefresh-2?wid=380&hei=213&fit=crop" 
-        alt="OneDrive"
-        title="Microsoft OneDrive" 
-        description="Description of the OneDrive" 
-        button="More Information">
+        
+        <product-card
+        img="https://assets.nintendo.eu/image/private/f_auto,c_limit,w_1920,q_auto:low/xhpzysipjjhubnagwa40" 
+        alt="2 months extra with any Nintendo Switch Online 12-month membership"
+        title="2 months extra with any Nintendo Switch Online 12-month membership" 
+        description="Existing members can also take advantage of this offer. Ends 08/09." 
+        button="Available Now">
+        </product-card>
+        
+        <product-card
+        img="https://assets.nintendo.eu/image/private/f_auto,c_limit,w_1920,q_auto:low/ougjpjl3apxa3irsse7p" 
+        alt="The Legend of Zelda: Echoes of Wisdom"
+        title="The Legend of Zelda: Echoes of Wisdom" 
+        description="Bundle available with Wall Scroll (30cm x 60cm). All game orders include a bonus Zelda Keyring." 
+        button="Pre-order Available">
+        </product-card>
+        
+        <product-card
+        img="https://assets.nintendo.eu/image/private/f_auto,c_limit,w_1920,q_auto:low/bgpzuzrnsdgqoxzq1xu2" 
+        alt="Nintendo Switch Joy- Con"
+        title="The Legend of Zelda: Echoes of Wisdom" 
+        description="Customise your Nintendo Switch with new and colourful Joy-Con." 
+        button="Discover">
         </product-card>`;
     }
 };
